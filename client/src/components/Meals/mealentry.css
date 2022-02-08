@@ -1,0 +1,19 @@
+.item {
+  padding: 5px;
+  border-bottom: solid 1px lightgray;
+  width: auto;
+  height: auto;
+}
+
+.calcount {
+  text-align: right;
+  margin-top: -10%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .calcount {
+    text-align: right;
+    margin-top: -16%;
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.AppBox {
+  background: white;
+  border: solid 2px lightgrey;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 98%;
+}
+
+h1 {
+  margin: 30px 50px;
+  font-family: "Itim";
+  font-size: 30px;
+  color: #1572a1;
+}

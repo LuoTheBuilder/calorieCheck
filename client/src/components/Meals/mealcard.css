@@ -1,0 +1,55 @@
+html {
+  font-family: itim;
+}
+.hordiv {
+  border-bottom: solid 2px rgb(182, 182, 182);
+  width: 90%;
+  margin: auto auto;
+}
+.mealcard {
+  width: auto;
+  height: auto;
+  flex: 0 1 calc(19%);
+  /* flex-basis: 20%; */
+  padding: 8px;
+}
+
+.datetitle {
+  font-size: 25px;
+  width: 100%;
+  padding: 30px;
+  font-weight: 700;
+  color: darkgray;
+}
+.totalcal {
+  padding: 10px;
+
+  font-size: 25px;
+  width: auto;
+  text-align: center;
+}
+.totalcal span {
+  font-size: 15px;
+}
+.itemholder {
+  padding: px;
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mealcard {
+    width: auto;
+    height: auto;
+    flex: 0 1 calc(45%);
+    /* flex-basis: 20%; */
+    padding: 8px;
+  }
+  .datetitle {
+    font-size: 25px;
+    width: 80%;
+    padding: 30px;
+    font-weight: 700;
+    color: darkgray;
+  }
+}

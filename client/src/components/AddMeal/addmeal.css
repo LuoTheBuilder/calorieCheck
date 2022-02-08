@@ -1,0 +1,8 @@
+.AddMealDiv {
+  align-items: center !important;
+}
+.AddMealButton {
+  display: block;
+  margin: auto auto;
+  float: none !important;
+}

@@ -1,0 +1,111 @@
+.form {
+  width: 40%;
+  background: rgb(230, 230, 230);
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.entry {
+  flex-basis: 40%;
+  margin: 10px 10px;
+}
+
+.entry label {
+  font-size: 15px;
+  width: 300px;
+  margin: 0px 30px;
+}
+
+.entry input {
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 0px 30px;
+  border-color: lightgray;
+  background-color: none;
+  padding: 10px 10px;
+}
+.entry select {
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px 30px;
+  border-color: lightgray;
+  background-color: none;
+  padding: 10px 10px;
+}
+Button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #8fcceb;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(97, 97, 97, 0.15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  display: block;
+  margin: auto 20px;
+}
+button:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+button:active {
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+button:hover {
+  box-shadow: rgba(39, 174, 96, 0.2) 0 6px 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .form {
+    width: 80%;
+    background: rgb(230, 230, 230);
+    margin: 20px auto;
+    padding: 20px auto;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  Button {
+    position: relative;
+  }
+  .entry {
+    flex-basis: 90%;
+    margin: 10px 0px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+  .entry label {
+    margin: 0px 20px;
+  }
+  .entry input {
+    margin: 0px 20px;
+  }
+}

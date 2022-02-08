@@ -1,0 +1,61 @@
+.chartbox {
+  width: 40%;
+  height: 250px;
+  background: rgb(240, 240, 240);
+  border: solid 2px lightgrey;
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-around;
+}
+
+.piebox {
+  width: 20%;
+  height: 250px;
+  background: rgb(240, 240, 240);
+  border: solid 2px lightgrey;
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-around;
+}
+
+.insightbox {
+  width: 25%;
+  height: 250px;
+  background: rgb(240, 240, 240);
+  border: solid 2px lightgrey;
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-around;
+}
+
+.chartscontainer {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.insightheader h1 {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .insightbox {
+    width: 100%;
+  }
+  .piebox {
+    width: 100%;
+  }
+  .chartbox {
+    width: 100%;
+  }
+}

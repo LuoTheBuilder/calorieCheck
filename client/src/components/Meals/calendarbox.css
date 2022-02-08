@@ -1,0 +1,7 @@
+.calendarbox {
+  flex-flow: row wrap;
+  display: flex;
+  width: 92%;
+  margin: 20px auto;
+  position: relative;
+}
