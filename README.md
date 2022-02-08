@@ -3,10 +3,11 @@
 > A web app for tracking calorie intake over the course of a work week.
 
 Built using (amongst other things):
-[MongoDB](https://www.mongodb.com/)
-[Express](https://expressjs.com/)
-[React](https://reactjs.org/)
-[Nodejs](https://nodejs.org/en/)
+
+- [MongoDB](https://www.mongodb.com/)
+- [Express](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- [Nodejs](https://nodejs.org/en/)
 
 # Getting Started
 
@@ -25,5 +26,6 @@ Built using (amongst other things):
 3. Push app to Heroku
    `git push heroku main`
 
-##Couple'o Notes
-If planning to run on a local environment, note that server.js points to a React build which is not present in the repo. to solve this problem, simply run `npm run build` from the create folder.
+## Couple'o Notes
+
+- If planning to run on a local environment, note that server.js points to a React build which is not present in the repo. to solve this problem, simply run `npm run build` from the create folder.
